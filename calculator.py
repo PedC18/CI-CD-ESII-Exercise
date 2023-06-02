@@ -12,6 +12,8 @@ class calculator:
         return a*b
     
     def div(self,a,b):
+        if b == 0:
+            return "error, can't divide by zero"
         return a / b
     
     def power(self,a,b):
